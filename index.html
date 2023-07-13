@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riot Games</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <main>
+
+        <!--? Login -->
+        <section class="login">
+
+            <div class="content">
+                
+                <img src="images/logo.png" alt="logo" class="logo">
+
+                <h1 class="login_title">Fazer login</h1>
+
+                <!--* inputs -->
+                <label class="login_label">
+                    <span>nome de usuário</span>
+                    <input type="text" name="username" class="login_input">
+                </label>
+
+                <label class="login_label">
+                    <span>senha</span>
+                    <input type="password" name="password" class="login_input">
+                </label>
+
+                <!--* botões -->
+                <div class="login_icons">
+
+                    <!-- facebook -->
+                    <button type="button" class="botao" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </button>
+
+                    <!-- google -->
+                    <button type="button" class="botao" id="google">
+                        <img src="images/google-icon.png" alt="logar com google">
+                    </button>
+
+                    <!-- apple -->
+                    <button type="button" class="botao" id="apple">
+                        <i class="fa-brands fa-apple"></i>
+                    </button>
+
+                </div>
+
+                <label class="checkbox">
+                    <input type="checkbox">
+                    Manter login
+                </label>
+
+                <button type="button" class="login_button" disabled>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <div class="links">
+                <a href="#" class="login_link">
+                    não consegue iniciar sessão?
+                </a>
+                
+                <a href="#" class="login_link">
+                    criar conta
+                </a>
+
+            </div>
+
+        </section>
+
+        <!--? wallpaper -->
+        <section class="wallpaper"></section>
+        
+    </main>
+
+    <!--? scripts -->
+    <script src="script.js"></script>
+
+</body>
+</html>
