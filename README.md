@@ -1,4 +1,4 @@
-# Login screen
+# Clone de página web
 
 <p>Clone da tela de login do jogo League of Legends e responsiva para dispositivos mobile.</p>
 
