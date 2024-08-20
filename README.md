@@ -1,6 +1,6 @@
 # Clone de página web
 
-<p>Clone da tela de login do jogo League of Legends e responsiva para dispositivos mobile.</p>
+<p>Tela de login do jogo League of Legends com HTML, CSS e JS e responsiva para dispositivos mobile.</p>
 
 <br>
 
